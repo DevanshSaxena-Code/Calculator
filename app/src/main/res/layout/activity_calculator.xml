@@ -14,10 +14,11 @@
         android:layout_alignParentTop="true"
         android:layout_margin="30dp"
         android:text=""
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textAlignment="textEnd"
         android:textColor="#808080"
         android:fontFamily="@font/poppins_medium"
+        android:maxLines="1"
         />
     <LinearLayout
         android:id="@+id/number_pad"
@@ -25,13 +26,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="30dp"
+        android:layout_margin="20dp"
         tools:ignore="UselessParent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="10dp">
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/clearAll"
                 style="@style/Theme.Calculator.Light.Button"
@@ -83,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="10dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/seven"
@@ -141,7 +142,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="10dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/four"
@@ -199,7 +200,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="10dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/one"
@@ -252,7 +253,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="10dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/zero"
