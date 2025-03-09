@@ -17,7 +17,6 @@
         android:textAlignment="textEnd"
         android:textColor="#818181"
         android:fontFamily="@font/poppins_medium"
-        android:maxLines="1"
         />
     <LinearLayout
         android:id="@+id/number_pad"
